@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_8FD644C4FD3042B597070831F6DEBA95"
+        "MsmKey" = "8:_9C59F767717D4D4A80B9C73692AD18C6"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -50,6 +50,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -114,12 +122,12 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8FD644C4FD3042B597070831F6DEBA95"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9C59F767717D4D4A80B9C73692AD18C6"
             {
             "SourcePath" = "8:..\\Srt Converter\\icon.ico"
             "TargetName" = "8:icon.ico"
             "Tag" = "8:"
-            "Folder" = "8:_282B488C436C43D1A89E3DA0AB22F9D4"
+            "Folder" = "8:_EA9CD8781E6C4FF6AD5DB6D24EADA360"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -191,7 +199,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Srt Converter"
         "ProductCode" = "8:{1D494F31-DD9B-4A7D-BDCE-039F11EAEBBF}"
-        "PackageCode" = "8:{3EEF48DD-B4C1-4473-86F7-F21B784EC0CC}"
+        "PackageCode" = "8:{4E2FCD2B-DB04-4B47-B3DA-98F3A578E1B4}"
         "UpgradeCode" = "8:{A339D6E8-1F73-4516-B444-D373EA4088B2}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -322,7 +330,7 @@
             "Target" = "8:_C8C900FE8DDD4AA2A7DDD15C11EA8431"
             "Folder" = "8:_282B488C436C43D1A89E3DA0AB22F9D4"
             "WorkingFolder" = "8:_EA9CD8781E6C4FF6AD5DB6D24EADA360"
-            "Icon" = "8:_8FD644C4FD3042B597070831F6DEBA95"
+            "Icon" = "8:_9C59F767717D4D4A80B9C73692AD18C6"
             "Feature" = "8:"
             }
         }
