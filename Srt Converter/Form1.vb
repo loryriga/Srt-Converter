@@ -373,12 +373,12 @@ Data:           i += 1
         SaveFileDialog1.Title = "Save File"
         SaveFileDialog1.FileName = "Out.csv"
         SaveFileDialog1.RestoreDirectory = True
-        SaveFileDialog1.ShowDialog()
 
-        If Windows.Forms.DialogResult.OK Then
+        If SaveFileDialog1.ShowDialog() = DialogResult.OK Then
             DestPath = SaveFileDialog1.FileName.ToString()
             System.IO.File.WriteAllLines(DestPath, CsvRows)
         End If
+
     End Sub
 
     Private Sub Main()
@@ -478,8 +478,11 @@ Data:           i += 1
         OpenFileDialog2.RestoreDirectory = True
         OpenFileDialog2.ShowDialog()
 
-        If Windows.Forms.DialogResult.OK Then FilePath1 = OpenFileDialog2.FileName.ToString()
+        If OpenFileDialog2.ShowDialog() = DialogResult.OK Then
+            FilePath1 = OpenFileDialog2.FileName.ToString()
+        End If
         FilePath1_lbl.Text = (FilePath1)
+
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -487,10 +490,12 @@ Data:           i += 1
         OpenFileDialog2.Title = "Select File 2"
         OpenFileDialog2.FileName = ""
         OpenFileDialog2.RestoreDirectory = True
-        OpenFileDialog2.ShowDialog()
 
-        If Windows.Forms.DialogResult.OK Then FilePath2 = OpenFileDialog2.FileName.ToString()
+        If OpenFileDialog2.ShowDialog() = DialogResult.OK Then
+            FilePath2 = OpenFileDialog2.FileName.ToString()
+        End If
         FilePath2_lbl.Text = (FilePath2)
+
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
