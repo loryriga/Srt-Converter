@@ -476,7 +476,6 @@ Data:           i += 1
         OpenFileDialog2.Title = "Select File 1"
         OpenFileDialog2.FileName = ""
         OpenFileDialog2.RestoreDirectory = True
-        OpenFileDialog2.ShowDialog()
 
         If OpenFileDialog2.ShowDialog() = DialogResult.OK Then
             FilePath1 = OpenFileDialog2.FileName.ToString()
