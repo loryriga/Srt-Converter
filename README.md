@@ -1,6 +1,6 @@
 # Srt-Converter
 
-This app converts DJI Goggles .srt files to .csv files that can be easily opened in excel. The data are formatted so that the user can easily reate graps and compare the performance of differnt antennas combinations <br><br>
+This app converts DJI Goggles .srt files to .csv files that can be easily opened in excel. The data are formatted so that the user can easily create graphs and compare the performance of different antennas combinations <br><br>
 
 1- Install the program by double clicking the .exe file <br>
 2- Select .srt file 1 <br>
